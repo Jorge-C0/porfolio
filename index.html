@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <!-- Menu Encabezado -->
+
+  <div class="contenedor-header">
+    <header>
+      
+      <div class="logo">
+        <a href="#">Jorge <i class="fa-solid fa-code"></i></a>
+      </div>
+
+      <nav id="nav" onclick="mostrarOcultarMenu()">
+        <ul>
+          <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+          <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
+          <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+          <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+          <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+          <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+        </ul>
+      </nav>
+
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      
+    </header>
+  </div>
+
+  <!-- Section Inicio -->
+
+  <section id="inicio" class="inicio">
+    <div class="contenido-banner">
+
+      <div class="contenedor-img">
+        <img src="img/circleprofile.png" alt="" srcset="">
+      </div>
+      <h1>JORGE CONCE</h1>
+      <h2>Software Ingeniering - Developer</h2>
+      <div class="redes">
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="#"><i class="fa-brands fa-discord"></i></a>
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- Section Sobre Mi -->
+
+  <section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+      <h2> About me</h2>
+      <p><span>Hi, I'm Jorge Conce.</span>  I am interested in developing programming skills for Mobile Apps, videogames, Frameworks such as Angular, reacts, Web platforms and much more.</p>
+
+      <div class="fila">
+        <!--  datos personales -->
+        <div class="col">
+          <h3>Personal Information</h3>
+          <ul>
+            <li>
+              <strong>Birthday</strong>
+              22-10-1998
+            </li>
+            <li>
+              <strong>Phone</strong>
+              849-650-5259
+            </li>
+            <li>
+              <strong>Email</strong>
+              jconcehernandez@gmail.com
+            </li>
+            <li>
+              <strong>Adress</strong>
+              Av. Los Hidalgos 447, Santo Domingo, Dominican Republic
+            </li>
+            <li>
+              <strong>Position</strong>
+              <span>SOFTWARE INGENIERING</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- intereses -->
+        <div class="col">
+            <h3>Interests</h3>
+            <div class="contenedor-interes">
+              <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>GAMES</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MUSIC</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>TRIP</span>
+              </div>
+              <div class="interes">
+                <i class="fa-brands fa-apple"></i>
+                <span>MAC OS</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-dumbbell"></i>
+                <span>GYM</span>
+              </div>
+              <div class="interes">
+                <i class="fa-solid fa-podcast"></i>
+                <span>LOCUTION</span>
+              </div>              
+            </div>
+        </div>        
+      </div>
+      <button>
+        <a download="Curriculum" href="img/cv.pdf">Download CV</a>
+        <i class="fa-solid fa-download"></i>
+        <span class="overlay"></span>
+      </button>
+    </div>
+  </section>
+
+  <!-- Seccion Skills -->
+  <section class="skills" id="skills">
+    <div class="contenido-seccion">
+      <h2>Skills</h2>
+      <div class="fila">
+        
+        <!-- Technicall Skills -->
+
+        <div class="col">
+          <h3>Technicall Skills</h3>
+
+            <div class="skill">
+              <span>Javascript</span>
+              <div class="barra-skill">
+                <div class="progreso javascritp">
+                  <span>20%</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="skill">
+              <span>Python</span>
+              <div class="barra-skill">
+                <div class="progreso python">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>HTML & CSS</span>
+              <div class="barra-skill">
+                <div class="progreso htmlcss">
+                  <span>60%</span>
+                </div>
+              </div>
+            </div>
+
+            <div  class="skill">
+              <span>React</span>
+              <div class="barra-skill">
+                <div class="progreso react">
+                  <span>30%</span>
+                </div>
+              </div>
+            </div>
+
+            <div  class="skill">
+              <span>Angular</span>
+              <div class="barra-skill">
+                <div class="progreso angular">
+                  <span>50%</span>
+                </div>
+              </div>
+            </div>
+              
+
+        </div>   
+        
+        <!-- Personal Skills -->
+
+        <div class="col">
+          <h3>Personal Skills</h3>
+
+            <div class="skill">
+              <span>Comunicación</span>
+              <div class="barra-skill">
+                <div class="progreso comunicacion">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+            
+            <div class="skill">
+              <span>Trabajo en Equipo</span>
+              <div class="barra-skill">
+                <div class="progreso team">
+                  <span>95%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <span>Dedicación</span>
+              <div class="barra-skill">
+                <div class="progreso dedicacion">
+                  <span>90%</span>
+                </div>
+              </div>
+            </div>
+
+            <div  class="skill">
+              <span>Resolución de problemas</span>
+              <div class="barra-skill">
+                <div class="progreso fix">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+
+        </div>   
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- secccion CV -->
+  <section id="curriculum" class="curriculum">    
+    <contenido-seccion>
+      <h2> Curriculum</h2>
+      <div class="fila">
+
+        <div class="col izquierda">
+          <h3>Education</h3>
+
+          <div class="item izq">
+            <h4>Primary studies</h4>
+            <span class="casa">Catholic Group School, Santo Domingo</span>
+            <span class="fecha">2001 - 2012</span>
+            <p>I forged my educational foundation at the outstanding Colegio Agrupación Católica, where I experienced an exceptional educational 
+              environment. During my basic cycles, I not only acquired fundamental knowledge, but also, guided by an exceptional teaching team, 
+              I enriched my understanding of the positive impact of education on society. Colegio Agrupación Católica not only represented a crucial 
+              phase in my academic development, but also sowed the seeds of wanting to learn. I am grateful for the solid education received at this 
+              exemplary institution and excited to apply those learnings in my career.</p>
+            <div class="conectori">
+              <div class="circuloi">
+
+              </div>
+            </div>
+          </div>
+
+          <div class="item izq">
+            <h4>Secondary studies</h4>
+            <span class="casa">Our Lady Parish School. of lourdes, Santo Domingo</span>
+            <span class="fecha">2012 - 2016</span>
+            <p>During my high school studies, I continued my search for knowledge at Nuestra Señora de Lourdes Parish School. This period not only consolidated my academic 
+              understanding but also broadened my perspective and skills. My focus on provided me with a solid theoretical and practical foundation, while I actively participated 
+              in activities that enriched my experience. The diversity of challenging subjects and projects allowed me to develop critical and analytical skills, 
+              as well as encourage creative thinking. The institution's collaborative and stimulating environment has been crucial in my personal and academic growth, 
+              preparing me for future challenges with a solid foundation and a continued passion for learning.</p>
+            <div class="conectori">
+              <div class="circuloi">
+
+              </div>
+            </div>
+          </div>
+          
+          <div class="item izq">
+            <h4>University studies</h4>
+            <span class="casa">Pedro Henriquez Ureña National University (UNPHU), Santo Domingo</span>
+            <span class="fecha">2018 - 2023</span>
+            <p>During my undergraduate studies in Computer Systems Engineering at UNPHU, I immersed myself in a fascinating journey of technological discovery. 
+              The combination of rigorous theoretical courses and practical, real-world experiences gave me a comprehensive understanding of the fundamentals of systems engineering. 
+              Through innovative and challenging projects, I honed my skills in software design and development, as well as efficient management of complex systems. 
+              I actively participated in extracurricular initiatives, such as hackathons and conferences, which expanded my vision and kept me updated with the latest technological trends. 
+              The university was not only a place of academic learning, but also a fertile ground for collaboration and building networks with professionals and peers passionate about technology. 
+              My college experience has equipped me with a solid foundation to address the dynamic challenges of the computer systems engineering field with confidence and creativity.</p>
+            <div class="conectori">
+              <div class="circuloi">
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col derecha">
+          <h3>Work experience</h3>
+          <div class="item der">
+            <h4>Support Center Analyst</h4>
+            <span class="casa">Pogressa Corporate Group, Santo Domingo</span>
+            <span class="fecha">2018 - 2023</span>
+            <p>As Support Center Analyst at Pogressa Corporate Group, I led the efficient resolution of technical problems and provided effective solutions to users, guaranteeing operational continuity. 
+              My proactive approach improved support center efficiency, while participating in documenting procedures and training new members. Developed strong communication and problem-solving skills, cultivating
+              a customer-centric approach to ensure satisfaction and operational effectiveness. In this dynamic business environment, I contributed significantly to the smooth operation of systems 
+              and experienced substantial career growth.</p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+          </div>
+        
+          
+        <div class="item der">
+            <h4>Software Ingenieer</h4>
+            <span class="casa">Pogressa Corporate Group</span>
+            <span class="fecha">2023</span>
+            <p>As a Software Engineer at Pogressa Corporate Group, I support the development of crucial initiatives in software development, actively participating in the design, implementation and maintenance of
+               innovative technological solutions. My proactive approach focuses on continuous improvement of the efficiency and functionality of the Odoo system, ensuring alignment with business goals. I work closely
+                with multidisciplinary teams, providing experience in identifying and resolving technical challenges. Additionally, my commitment to best practices and adaptability in a dynamic business environment has 
+                strengthened my ability to deliver high-quality software solutions that drive Pogressa Corporate Group's success in the technology space.</p>
+            <div class="conectord">
+              <div class="circulod"></div>
+            </div>
+        </div>
+
+        
+
+      </div>
+      </div>
+    </contenido-seccion>
+  </section>
+
+  <!-- Seccion Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <div class="contenido-seccion">
+      <h2>PORTFOLIO</h2>
+      <div class="galeria">
+
+        <div class="proyecto">
+          <img src="img/fondo-1.jpg" alt="">
+          <div class="overlay">
+            <h3>Diseño Creativo</h3>
+            <p>Fotografia</p>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <img src="img/fondo-1.jpg" alt="">
+          <div class="overlay">
+            <h3>Diseño Creativo</h3>
+            <p>Fotografia</p>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <img src="img/fondo-1.jpg" alt="">
+          <div class="overlay">
+            <h3>Diseño Creativo</h3>
+            <p>Fotografia</p>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <img src="img/fondo-1.jpg" alt="">
+          <div class="overlay">
+            <h3>Diseño Creativo</h3>
+            <p>Fotografia</p>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <img src="img/fondo-1.jpg" alt="">
+          <div class="overlay">
+            <h3>Diseño Creativo</h3>
+            <p>Fotografia</p>
+          </div>
+        </div>
+
+        <div class="proyecto">
+          <img src="img/fondo-1.jpg" alt="">
+          <div class="overlay">
+            <h3>Diseño Creativo</h3>
+            <p>Fotografia</p>
+          </div>
+        </div>
+
+        
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Seccion Contacto -->
+
+  <section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+      <h2>CONTACT</h2>
+      <div class="fila">
+        <!-- Formulario -->
+        <div class="col">
+          <input type="text" placeholder="Your Name">
+          <input type="number" placeholder="Phone Number">
+          <input type="email" placeholder="Email">
+          <input type="text" placeholder="Theme">
+          <textarea name="" id="" cols="30" rows="10" placeholder="Menssage"></textarea>
+          <button>
+            Send Message <i class="fa-solid fa-paper-plane"></i>
+            <span class="overlay"></span>
+          </button>
+        </div>
+        <!-- Mapa -->
+        <div class="col">
+          <img src="img/location.png" alt="">
+          <div class="info">
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                Av. Tiradentes, Santo Domingo 00000
+              </li>
+              <li>
+                <i class="fa-solid fa-mobile-screen"></i>
+                Cel: 849-650-5259              
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                Email: jconcehernandez@gmail.com      
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- seccion fotter -->
+
+  <footer>
+    <a href="#inicio" class="arriba">
+      <i class="fa-solid fa-angles-up"></i>
+    </a>
+
+    <div class="redes">
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-github"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+      <a href="#"><i class="fa-brands fa-discord"></i></a>
+    </div>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
