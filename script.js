@@ -25,15 +25,19 @@ function efectoHabilidades(){
 
     if(distancia_skills >= 300){
         let habildades = document.getElementsByClassName("progreso");
-        habildades[0].classList.add("javascript");
-        habildades[1].classList.add("python");
-        habildades[2].classList.add("htmlcss");
-        habildades[3].classList.add("react");
-        habildades[4].classList.add("angular");
-        habildades[5].classList.add("comunicacion");
-        habildades[6].classList.add("team");
-        habildades[7].classList.add("dedicacion");
-        habildades[8].classList.add("fix");
+        habildades[0].classList.add("python");
+        habildades[1].classList.add("git");
+        habildades[2].classList.add("odoo");
+        habildades[3].classList.add("csharp");
+        habildades[4].classList.add("htmlcss");
+        habildades[5].classList.add("javascritp");
+        habildades[6].classList.add("react");
+        habildades[7].classList.add("angular");
+        habildades[8].classList.add("comunicacion");
+        habildades[9].classList.add("team");
+        habildades[10].classList.add("dedicacion");
+        habildades[11].classList.add("fix");
+        
     }
 
 }
