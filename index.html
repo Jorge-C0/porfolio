@@ -434,16 +434,21 @@
       <div class="fila">
         <!-- Formulario -->
         <div class="col">
-          <input type="text" placeholder="Your Name">
-          <input type="number" placeholder="Phone Number">
-          <input type="email" placeholder="Email">
-          <input type="text" placeholder="Theme">
-          <textarea name="" id="" cols="30" rows="10" placeholder="Menssage"></textarea>
-          <button>
+        <form action="https://formspree.io/f/xkgwrnwd"
+          method="POST">
+        
+          <input type="text" name="name" placeholder="Your Name">
+          <input type="number" name="number" placeholder="Phone Number">
+          <input type="email" name="email" placeholder="Email">
+          <input type="text" name="subject" placeholder="Theme">
+          <textarea name="name" name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+          <button type="submit">
             Send Message <i class="fa-solid fa-paper-plane"></i>
             <span class="overlay"></span>
           </button>
-        </div>
+        
+        </form>
+      </div>
         <!-- Mapa -->
         <div class="col">
           <img src="img/location.png" alt="">
