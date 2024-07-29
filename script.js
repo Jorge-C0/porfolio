@@ -30,9 +30,9 @@ function efectoHabilidades(){
         habildades[2].classList.add("odoo");
         habildades[3].classList.add("csharp");
         habildades[4].classList.add("htmlcss");
-        habildades[5].classList.add("javascritp");
-        habildades[6].classList.add("react");
-        habildades[7].classList.add("angular");
+        habildades[5].classList.add("angular");
+        habildades[6].classList.add("javascritp");
+        habildades[7].classList.add("react");
         habildades[8].classList.add("comunicacion");
         habildades[9].classList.add("team");
         habildades[10].classList.add("dedicacion");
